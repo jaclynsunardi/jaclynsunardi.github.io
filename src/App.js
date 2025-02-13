@@ -31,7 +31,7 @@ function App() {
             <p><span className="auto-type"></span></p>
           </div>
           <div className="HomePagePhoto">
-            <img src="photo.png" alt="Profile" />
+            <img src="image.jpg" alt="Profile Picture" />
           </div>
         </div>
       </section>

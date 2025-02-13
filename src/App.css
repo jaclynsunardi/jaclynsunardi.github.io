@@ -1,23 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.App {
-  text-align: center;
+html {
+  scroll-snap-type: y mandatory;
+  scroll-padding: 0 0 20px 0;
 }
 
 body {
-  background: #faf8f6;
+  margin: 0;
   font-family: 'Montserrat', sans-serif;
-
 }
 
-.HomePage {
-  text-align: center;
-  margin-top: 20vh;
-  color: #595552;
-}
-
-.HomePageImage {
-  height: auto;
-  width: 200px;
+section {
+  scroll-snap-align: start;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: black;
+  background-color: white;
+}
+
+.NameText {
+  color: #595552;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.NameText h1 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.NameText p {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+}
+
+.HomePagePhoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.HomePagePhoto img {
+  width: 170px;
+  margin: auto;
+}
+
+.auto-type {
+  font-weight: bold;
+  color: #595552;
 }
