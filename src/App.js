@@ -96,7 +96,10 @@ function App() {
       <section id="aboutme" ref={aboutRef}>
         <div className='AboutContent'>
           <h2>About Me</h2>
-          <p> testing</p>
+          <div className='AboutText'>
+            <p> testing blah blah adfasdfadfafafewefa;wef f;ea;ef wf;ae;faw;ef wafa wefjawef</p>
+            <p> testing2 asdf awefasdfa ef aewf aef aef aef aefa faffefjawefajefawefafas;dfasdfaf</p>
+          </div>
         </div>
       </section>
 
