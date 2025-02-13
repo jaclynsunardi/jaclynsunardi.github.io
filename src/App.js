@@ -33,7 +33,25 @@ function App() {
           <div className="HomePagePhoto">
             <img src="image.jpg" alt="Profile Picture" />
           </div>
+
+          {/* Navigation Buttons Below Profile Image */}
+          <div className="nav-buttons">
+            <a href="#section1" className="nav-button">Section 1</a>
+            <a href="#section2" className="nav-button">Section 2</a>
+            <a href="#section3" className="nav-button">Section 3</a>
+          </div>
         </div>
+      </section>
+
+      {/* Sections for Navigation */}
+      <section id="section1">
+        <h2>Section 1</h2>
+      </section>
+      <section id="section2">
+        <h2>Section 2</h2>
+      </section>
+      <section id="section3">
+        <h2>Section 3</h2>
       </section>
     </div>
   );
