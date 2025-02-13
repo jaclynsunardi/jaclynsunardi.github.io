@@ -36,22 +36,22 @@ function App() {
 
           {/* Navigation Buttons Below Profile Image */}
           <div className="nav-buttons">
-            <a href="#section1" className="nav-button">Section 1</a>
-            <a href="#section2" className="nav-button">Section 2</a>
-            <a href="#section3" className="nav-button">Section 3</a>
+            <a href="#aboutme" className="nav-button">About Me</a>
+            <a href="#projects" className="nav-button">Projects</a>
+            <a href="#contact" className="nav-button">Contact Me</a>
           </div>
         </div>
       </section>
 
       {/* Sections for Navigation */}
-      <section id="section1">
-        <h2>Section 1</h2>
+      <section id="aboutme">
+        <h2>About Me</h2>
       </section>
-      <section id="section2">
-        <h2>Section 2</h2>
+      <section id="projects">
+        <h2>Projects</h2>
       </section>
-      <section id="section3">
-        <h2>Section 3</h2>
+      <section id="contact">
+        <h2>Contact Me</h2>
       </section>
     </div>
   );

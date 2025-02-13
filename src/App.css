@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  background-color: white;
+  background-color: #FAF8F6 ;
 }
 
 .App-header {
@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FAF8F6 ;
 }
 
 .App-logo {
@@ -30,8 +30,8 @@
 
 .nav-button {
   text-decoration: none;
-  background-color: #61dafb;
-  color: white;
+  background-color: #A67C52;
+  color: #FAF8F6;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1rem;
@@ -39,7 +39,7 @@
 }
 
 .nav-button:hover {
-  background-color: #4fa3d1;
+  background-color: #8C653F;
 }
 
 section {
@@ -49,7 +49,7 @@ section {
   justify-content: center;
   scroll-snap-align: start;
   color: black;
-  background-color: white;
+  background-color: #FAF8F6;
   border-bottom: 1px solid #ddd;
 }
 
