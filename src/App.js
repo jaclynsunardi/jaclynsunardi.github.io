@@ -21,10 +21,12 @@ function App() {
     <div className="App">
       <div className="Header">
         <div className="Logo-Brand">
-          <img src="logo.png" alt="Logo" id="Logo" />
+          <a href="#home">
+            <img src="logo.png" alt="Logo" className="App-logo" />
+          </a>
         </div>
       </div>
-      <section ref={homeRef}>
+      <section id = "home" ref={homeRef}>
         <div className="Content">
           <div className="NameText">
             <h1>Hi, I'm Jaclyn Sunardi!</h1>
