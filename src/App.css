@@ -159,7 +159,7 @@ section {
 }
 
 #contact h2 {
-  margin-top: -100px; /* Adjust this value to move the title higher */
+  margin-top: -100px;
 } 
 
 #contact p {
@@ -185,4 +185,25 @@ section {
 .ContactImages img:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+#aboutme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutContent {
+  text-align: center;
+}
+
+#aboutme h2 {
+  margin-top: -100px;
+}
+
+#aboutme p {
+  font-size: 1.2rem;
+  color: #595552;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
 }

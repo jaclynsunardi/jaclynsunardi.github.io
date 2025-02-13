@@ -94,7 +94,10 @@ function App() {
       </section>
 
       <section id="aboutme" ref={aboutRef}>
-        <h2>About Me</h2>
+        <div className='AboutContent'>
+          <h2>About Me</h2>
+          <p> testing</p>
+        </div>
       </section>
 
       <section id="projects" ref={projectsRef}>
