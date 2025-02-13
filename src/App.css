@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  background-color: #FAF8F6 ;
+  background-color: #FAF8F6;
 }
 
 .Header {
@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #FAF8F6 ;
+  color: #FAF8F6;
 }
 
 .App-logo {
@@ -115,7 +115,7 @@ section {
   transform: translateX(-50);
 }
 
-.NavBar a{
+.NavBar a {
   text-decoration: none;
   color: #595552;
   font-size: 1rem;
@@ -125,10 +125,8 @@ section {
 }
 
 .NavBar a:hover {
-  color: #A67C52
+  color: #A67C52;
 }
-
-
 
 html {
   scroll-snap-type: y mandatory;
@@ -150,36 +148,6 @@ section {
   background-color: #FAF8F6;
 }
 
-.NameText {
-  color: #595552;
-  text-align: center;
-  margin-top: 10vh;
-}
-
-.NameText h1 {
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.NameText p {
-  font-size: 17px;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 0;
-}
-
-.HomePagePhoto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30vh;
-}
-
-.HomePagePhoto img {
-  width: 170px;
-  margin: auto;
-}
-
-.auto-type {
-  font-weight: bold;
-  color: #595552;
+#contact h2 {
+  margin-top: -300px; /* Adjust this value to move the title higher */
 }
