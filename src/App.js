@@ -25,6 +25,12 @@ function App() {
             <img src="logo.png" alt="Logo" className="App-logo" />
           </a>
         </div>
+        <nav className='NavBar'>
+          <a href="#home">Home</a>
+          <a href="#aboutme">About Me</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact Me</a>
+        </nav>
       </div>
       <section id = "home" ref={homeRef}>
         <div className="Content">

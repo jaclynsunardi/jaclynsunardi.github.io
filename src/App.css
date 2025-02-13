@@ -10,13 +10,12 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  padding: 20px;
+  padding: 10px 20px;
   background-color: #faf8f6;
   width: 100%;
-  box-shadow: 0 2px 50x rgba(0,0,0,0.1);
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Logo-Brand {
@@ -105,6 +104,28 @@ section {
 .auto-type {
   font-weight: bold;
   color: #595552;
+}
+
+.NavBar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  left: 37%;
+  transform: translateX(-50);
+}
+
+.NavBar a{
+  text-decoration: none;
+  color: #595552;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.NavBar a:hover {
+  color: #A67C52
 }
 
 
