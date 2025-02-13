@@ -106,9 +106,15 @@ function App() {
           <h2>Contact Me</h2>
           <p>Feel free to reach out to me! I'd love to hear from you.</p>
           <div className="ContactImages">
-            <img src="github.png" alt="GitHub" />
-            <img src="LI-In-Bug.png" alt="LinkedIn" />
-            <img src="Gmail-logo.png" alt="Gmail/Mail" />
+            <a href="https://github.com/jaclynsunardi" target="_blank" rel="noopener noreferrer">
+              <img src="github.png" alt="GitHub" />
+            </a>
+            <a href="https://linkedin.com/in/jaclynsunardi" target="_blank" rel="noopener noreferrer">
+              <img src="LI-In-Bug.png" alt="LinkedIn" />
+            </a>
+            <a href="mailto:jaclyn.sunardi@gmail.com">
+              <img src="Gmail-logo.png" alt="Gmail/Mail" />
+            </a>
           </div>
         </div>
       </section>
