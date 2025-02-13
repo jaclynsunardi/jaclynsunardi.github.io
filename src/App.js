@@ -102,7 +102,10 @@ function App() {
       </section>
 
       <section id="contact" ref={contactRef}>
-        <h2>Contact Me</h2>
+        <div className="ContactContent">
+          <h2>Contact Me</h2>
+          <p>Feel free to reach out to me! I'd love to hear from you.</p>
+        </div>
       </section>
     </div>
   );

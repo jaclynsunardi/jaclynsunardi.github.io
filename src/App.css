@@ -148,6 +148,23 @@ section {
   background-color: #FAF8F6;
 }
 
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactContent {
+  text-align: center;
+}
+
 #contact h2 {
-  margin-top: -300px; /* Adjust this value to move the title higher */
+  margin-top: -100px; /* Adjust this value to move the title higher */
 } 
+
+#contact p {
+  font-size: 1.2rem;
+  color: #595552;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+}
