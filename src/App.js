@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className = "HomePage">
-        
+        <p>testing font</p>
       </div>
     </div>
   );
