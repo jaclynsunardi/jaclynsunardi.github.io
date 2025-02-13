@@ -105,6 +105,11 @@ function App() {
         <div className="ContactContent">
           <h2>Contact Me</h2>
           <p>Feel free to reach out to me! I'd love to hear from you.</p>
+          <div className="ContactImages">
+            <img src="github.png" alt="GitHub" />
+            <img src="LI-In-Bug.png" alt="LinkedIn" />
+            <img src="Gmail-logo.png" alt="Gmail/Mail" />
+          </div>
         </div>
       </section>
     </div>
