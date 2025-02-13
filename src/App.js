@@ -97,7 +97,7 @@ function App() {
         <div className='AboutContent'>
           <h2>About Me</h2>
           <div className='AboutText'>
-            <p>Hi, I'm Jaclyn Sunardi. I am currently a third year student at Simon Fraser University pursuing a Bachelor's of Science Degree in Computing Science with a concentration in Entrepreneurship. I am interested in cloud computing, software development, artificial intelligence, and embedded systems. </p>
+            <p>Hi, I'm Jaclyn Sunardi. I am currently a third year student at Simon Fraser University pursuing a Bachelor's of Science Degree in Computing Science with a concentration in Entrepreneurship. I am interested in cloud computing, software development, artificial intelligence, and embedded systems. <br /> <br/> <a href="Resume - Jaclyn Sunardi.pdf" target="_blank" rel="noopener norerrer">My Resume</a></p>
             <div>
             <p> Experience: </p>
               <ul>
