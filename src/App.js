@@ -97,8 +97,16 @@ function App() {
         <div className='AboutContent'>
           <h2>About Me</h2>
           <div className='AboutText'>
-            <p> testing blah blah adfasdfadfafafewefa;wef f;ea;ef wf;ae;faw;ef wafa wefjawef</p>
-            <p> testing2 asdf awefasdfa ef aewf aef aef aef aefa faffefjawefajefawefafas;dfasdfaf</p>
+            <p>Hi, I'm Jaclyn Sunardi. I am currently a third year student at Simon Fraser University pursuing a Bachelor's of Science Degree in Computing Science with a concentration in Entrepreneurship. I am interested in cloud computing, software development, artificial intelligence, and embedded systems. </p>
+            <div>
+            <p> Experience: </p>
+              <ul>
+                <li>Full Stack Developer Intern @ ResponsiveAds</li>
+                <li>Web Developer @ DL Roofing Ltd.</li>
+                <li>Director of Events and Logistics @ SFU Google Developer Student Club</li>
+                <li>Mentor @ SFU WiCS Mentorship Program</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
