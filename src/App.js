@@ -62,43 +62,31 @@ function App() {
       {
         title: 'Networking Project 1',
         description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+        repoUrl: "https://github.com/nrhuang/dripcheck"
+
       },
-      {
-        title: 'Networking Project 2',
-        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
-      },
-      {
-        title: 'Networking Project 3',
-        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
-      },
+    
     ],
     software: [
       {
-        title: 'Software Project 1',
-        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+        title: 'watchSocket',
+        description: 'watchSocket enables you to watch videos with buddies, without the need of worrying about syncing up your videos!',
+        repoUrl: "https://github.com/VamiqValji/AngelHacks-2021"
+
       },
       {
-        title: 'Software Project 2',
-        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
-      },
-      {
-        title: 'Software Project 3',
-        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+        title: 'JobSecurity Hub',
+        description: 'An application that scrapes Indeed.com for relevant job postings.',
+        repoUrl: "https://github.com/nrhuang/hackthebreak"
+
       },
     ],
     ai: [
       {
-        title: 'AI Project 1',
-        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
-      },
-      {
-        title: 'AI Project 2',
-        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
-      },
-      {
-        title: 'AI Project 3',
-        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
-      },
+        title: 'DripCheck',
+        description: 'AI-powered outfit generator that recommends weather-appropriate styles based on your location',
+        repoUrl: "https://github.com/nrhuang/dripcheck"
+      }
     ],
   };
 
@@ -196,7 +184,9 @@ function App() {
             <div key={index} className="ProjectCard">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
-              <button className="ViewProjectButton">View Project</button>
+              <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
+                <button className="view-project-button">View Project</button>
+              </a>
             </div>
           ))}
         </div>
