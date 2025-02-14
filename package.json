@@ -1,6 +1,7 @@
 {
   "name": "jaclynsunardi.github.io",
   "version": "0.1.0",
+  "homepage": "https://jaclynsunardi.github.io/website2",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
@@ -9,6 +10,8 @@
     "react-typed": "^2.0.12"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4"
   }
