@@ -290,7 +290,7 @@ section {
 }
 
 #projects h2 {
-  margin-top: -100px;
+  margin-top: -30px;
 }
 
 .ProjectsTabs {
@@ -359,5 +359,3 @@ section {
   transition: background 0.3s ease-in-out;
 }
 
-.ViewProjectButton:hover {
-}

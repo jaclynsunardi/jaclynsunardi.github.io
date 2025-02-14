@@ -7,10 +7,9 @@ function App() {
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
-  const [activeSection, setActiveSection] = useState('home'); // State to track active section
-  const [activeTab, setActiveTab] = useState('networking'); // State to track active tab in Projects section
+  const [activeSection, setActiveSection] = useState('home'); 
+  const [activeTab, setActiveTab] = useState('networking'); 
 
-  // Typed.js initialization
   useEffect(() => {
     const typed = new Typed('.auto-type', {
       strings: ['Third Year Student', 'Software Engineer', 'Entrepreneur'],
@@ -21,7 +20,7 @@ function App() {
     return () => typed.destroy();
   }, []);
 
-  // Intersection Observer to detect active section
+
   useEffect(() => {
     const sections = [
       { id: 'home', ref: homeRef },
@@ -38,7 +37,7 @@ function App() {
           }
         });
       },
-      { threshold: 0.5 } // Trigger when 50% of the section is visible
+      { threshold: 0.5 } 
     );
 
     sections.forEach(({ ref }) => {
@@ -56,7 +55,7 @@ function App() {
     };
   }, []);
 
-  // Sample project data
+  
   const projects = {
     networking: [
       {
@@ -98,7 +97,7 @@ function App() {
             <img src="logo.png" alt="Logo" className="App-logo" />
           </a>
         </div>
-        {/* Conditionally render the navigation bar */}
+        
         {activeSection !== 'home' && (
           <nav className="NavBar">
             <a href="#home">Home</a>
@@ -109,7 +108,7 @@ function App() {
         )}
       </div>
 
-      {/* Sections */}
+      
       <section id="home" ref={homeRef}>
         <div className="Content">
           <div className="NameText">
@@ -119,7 +118,7 @@ function App() {
           <div className="HomePagePhoto">
             <img src="image.jpg" alt="Profile Picture" />
           </div>
-          {/* Navigation Buttons Below Profile Image */}
+         
           <div className="nav-buttons">
             <a href="#aboutme" className="nav-button">About Me</a>
             <a href="#projects" className="nav-button">Projects</a>
