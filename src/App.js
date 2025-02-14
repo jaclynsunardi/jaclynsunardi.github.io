@@ -185,7 +185,7 @@ function App() {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
-                <button className="view-project-button">View Project</button>
+                <button className="ViewProjectButton">View Project</button>
               </a>
             </div>
           ))}
