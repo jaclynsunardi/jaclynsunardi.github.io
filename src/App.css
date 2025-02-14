@@ -303,8 +303,8 @@ section {
 .ProjectsTabs button {
   padding: 10px 20px;
   border: none;
-  background-color: #A67C52;
-  color: #FAF8F6;
+  background-color:transparent;
+  color: #595552;
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
@@ -312,11 +312,7 @@ section {
 }
 
 .ProjectsTabs button.active {
-  background-color: #8C653F;
-}
-
-.ProjectsTabs button:hover {
-  background-color: #8C653F;
+  font-weight: bold;
 }
 
 .ProjectsContent {
@@ -354,7 +350,7 @@ section {
 
 .ViewProjectButton {
   background-color: #A67C52;
-  color: #FAF8F6;
+  color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
