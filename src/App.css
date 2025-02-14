@@ -283,3 +283,73 @@ section {
 #projects h2 {
   margin-top: -300px;
 }
+
+.ProjectsTabs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ProjectsTabs button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #A67C52;
+  color: #FAF8F6;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.ProjectsTabs button.active {
+  background-color: #8C653F;
+}
+
+.ProjectsTabs button:hover {
+  background-color: #8C653F;
+}
+
+.ProjectsContent {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ProjectCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ProjectCard h3 {
+  font-size: 1.5rem;
+  color: #595552;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ProjectCard p {
+  font-size: 1rem;
+  color: #595552;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ViewProjectButton {
+  background-color: #A67C52;
+  color: #FAF8F6;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.ViewProjectButton:hover {
+  background-color: #8C653F;
+}

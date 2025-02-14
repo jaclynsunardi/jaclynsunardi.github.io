@@ -8,6 +8,7 @@ function App() {
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
   const [activeSection, setActiveSection] = useState('home'); // State to track active section
+  const [activeTab, setActiveTab] = useState('networking'); // State to track active tab in Projects section
 
   // Typed.js initialization
   useEffect(() => {
@@ -54,6 +55,40 @@ function App() {
       });
     };
   }, []);
+
+  // Sample project data
+  const projects = {
+    networking: [
+      {
+        title: 'Project 1',
+        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+      },
+      {
+        title: 'Project 2',
+        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+      },
+    ],
+    software: [
+      {
+        title: 'Project 3',
+        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+      },
+      {
+        title: 'Project 4',
+        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+      },
+    ],
+    ai: [
+      {
+        title: 'Project 5',
+        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+      },
+      {
+        title: 'Project 6',
+        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+      },
+    ],
+  };
 
   return (
     <div className="App">
@@ -119,12 +154,40 @@ function App() {
           <img src="react.png" alt='React' />
           <img src="matlab.jpeg" alt='Matlab' />
           <img src="svelte.png" alt='Svelte' />
-
         </div>
       </section>
 
       <section id="projects" ref={projectsRef}>
         <h2>Projects</h2>
+        <div className="ProjectsTabs">
+          <button
+            className={activeTab === 'networking' ? 'active' : ''}
+            onClick={() => setActiveTab('networking')}
+          >
+            Networking
+          </button>
+          <button
+            className={activeTab === 'software' ? 'active' : ''}
+            onClick={() => setActiveTab('software')}
+          >
+            Software Development
+          </button>
+          <button
+            className={activeTab === 'ai' ? 'active' : ''}
+            onClick={() => setActiveTab('ai')}
+          >
+            Artificial Intelligence
+          </button>
+        </div>
+        <div className="ProjectsContent">
+          {projects[activeTab].map((project, index) => (
+            <div key={index} className="ProjectCard">
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <button className="ViewProjectButton">View Project</button>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section id="contact" ref={contactRef}>
