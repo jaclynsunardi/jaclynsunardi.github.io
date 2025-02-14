@@ -97,9 +97,9 @@ function App() {
         <div className='AboutContent'>
           <h2>About Me</h2>
           <div className='AboutText'>
-            <p>Hi, I'm Jaclyn Sunardi. I am currently a third year student at Simon Fraser University pursuing a Bachelor's of Science Degree in Computing Science with a concentration in Entrepreneurship. I am interested in cloud computing, software development, artificial intelligence, and embedded systems. <br /> <br/> <a href="Resume - Jaclyn Sunardi.pdf" target="_blank" rel="noopener norerrer">My Resume</a></p>
+            <p>Hi, I'm Jaclyn Sunardi. I am currently a third year student at Simon Fraser University pursuing a Bachelor's of Science Degree in Computing Science with a concentration in Entrepreneurship. I am interested in cloud computing, software development, artificial intelligence, and embedded systems. <br /> <br/> <a href="Resume - Jaclyn Sunardi.pdf" target="_blank" rel="noopener noreferrer">My Resume</a></p>
             <div>
-            <p> Experience: </p>
+              <p> Experience: </p>
               <ul>
                 <li>Full Stack Developer Intern @ ResponsiveAds</li>
                 <li>Web Developer @ DL Roofing Ltd.</li>
@@ -108,6 +108,18 @@ function App() {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="SkillsSection">
+          <h4>Skills</h4>
+          <img src="python.png" alt='Python' />
+          <img src="c++.png" alt='C++' />
+          <img src="js.png" alt='JavaScript' />
+          <img src="java.png" alt='Java' />
+          <img src="aws.png" alt='AWS' />
+          <img src="react.png" alt='React' />
+          <img src="matlab.jpeg" alt='Matlab' />
+          <img src="svelte.png" alt='Svelte' />
+
         </div>
       </section>
 
