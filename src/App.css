@@ -349,8 +349,9 @@ section {
 }
 
 .ViewProjectButton {
-  background-color: #A67C52;
-  color: white;
+  background-color: transparent;
+  color: #595552;
+  text-decoration: underline;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -359,5 +360,4 @@ section {
 }
 
 .ViewProjectButton:hover {
-  background-color: #8C653F;
 }
