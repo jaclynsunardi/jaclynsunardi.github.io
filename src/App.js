@@ -60,31 +60,43 @@ function App() {
   const projects = {
     networking: [
       {
-        title: 'Project 1',
+        title: 'Networking Project 1',
         description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
       },
       {
-        title: 'Project 2',
+        title: 'Networking Project 2',
+        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+      },
+      {
+        title: 'Networking Project 3',
         description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
       },
     ],
     software: [
       {
-        title: 'Project 3',
+        title: 'Software Project 1',
         description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
       },
       {
-        title: 'Project 4',
+        title: 'Software Project 2',
+        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+      },
+      {
+        title: 'Software Project 3',
         description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
       },
     ],
     ai: [
       {
-        title: 'Project 5',
+        title: 'AI Project 1',
         description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
       },
       {
-        title: 'Project 6',
+        title: 'AI Project 2',
+        description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
+      },
+      {
+        title: 'AI Project 3',
         description: 'Lorem ipsum dolor sit amet nulla adipiscing elit. Nunc maximus, nec ut commodo.',
       },
     ],
